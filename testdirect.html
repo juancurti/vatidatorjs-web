@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="./dist/vatidatorjs-web.min.js"></script>
+  </head>
+<body>
+    <script>
+      let a = async function() {
+        let b = await vatidator.validateVAT('FR20792757270')
+        console.log('Should be TRUE and is.....:'+b);
+
+        let c = await vatidator.validateVAT('FR20792457270')
+        console.log('Should be FALSE and is.....:'+c);
+      }
+
+      a()
+    </script>
+  </body>
+</html>
