@@ -1,6 +1,6 @@
 {
   "name": "vatidatorjs-web",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A VAT validator that uses EU SOAP services to validate a given vat code",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
